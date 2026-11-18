@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cdtracker",
+  "version": "${version}",
+  "name": "CD Tracker",
+  "description": "Показывает кулдауны предметов у противников (в том числе кастомных предметов сервера). Меню на клавише J.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cdtracker.CdTrackerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
